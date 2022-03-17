@@ -56,12 +56,12 @@ h2 {
 .card {
     height: 20em;
     width: 100%;
-    padding: 2.5em;
+    padding: 2.5em 4em;
     background-color: white;
     border-radius: 5px;
     margin-bottom: 2em;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -70,7 +70,7 @@ h2 {
 
 .card,
 .card a {
-    transition: transform .4s ease-in;
+    transition: transform .3s ease-in-out;
 }
 
 .card p {
@@ -90,6 +90,7 @@ h2 {
     color: white;
     font-weight: bold;
     box-shadow: 0 10px 17px -5px rgba(230, 152, 7, 0.7);
+    margin-top: auto;
 }
 
 .card:hover,
