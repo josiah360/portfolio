@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    padding: 6em 4em;
+    padding: 5em 2em;
     text-align: center;
     color: white;
     background: linear-gradient(to top, rgb(10, 68, 107) 10%, transparent),
@@ -104,7 +104,22 @@ footer {
     margin-top: 1.5em;
 }
 
-@media only screen and (min-width: 687px) {
+@media only screen and (min-width: 280px) and (max-width: 687px) {
+    .card {
+        padding: 1.5em 1.5em;
+        height: auto;
+    }
+
+    header {
+        padding: 6em 2em;
+    }
+
+    .card img {
+        width: 15em;
+    }
+}
+
+@media only screen and (min-width: 688px) {
     main {
         flex-direction: row;
         justify-content: center;
@@ -112,6 +127,8 @@ footer {
     }
     .card {
         width: 40%;
+        height: auto;
+        padding: 3em 2em;
     }
 
     header {
