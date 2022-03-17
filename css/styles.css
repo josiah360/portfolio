@@ -1,4 +1,4 @@
-@import url('inter.css');
+@import url('../fonts/inter.css');
 
 * {
     box-sizing: border-box;
@@ -11,7 +11,6 @@ html {
 body {
     margin: 0;
     font-size: 1.6em;
-    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-family: 'Inter', sans-serif;
     background-color: rgb(10, 68, 107);
 }
