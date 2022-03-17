@@ -66,6 +66,7 @@ h2 {
     flex-direction: column;
     text-align: center;
     overflow: hidden;
+    color: rgb(41, 41, 41);
 }
 
 .card,
@@ -111,7 +112,7 @@ footer {
     }
 
     header {
-        padding: 6em 2em;
+        padding: 6em 1.5em;
     }
 
     .card img {
